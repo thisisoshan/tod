@@ -32,7 +32,7 @@ img {
 button[type] {
     position: fixed;
     bottom: 5px;
-    left: 5px;
+    right: 5px;
     
     background: transparent;
     border: 1px solid #333;
