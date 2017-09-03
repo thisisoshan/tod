@@ -38,6 +38,10 @@ button[type] {
     border: 1px solid #333;
     border-radius: 1px;
 }
+button[type]:focus, button[type]:active {
+    outline: 0;
+    box-shadow: none;
+}
 @media (max-width: 425px) {
     img {
         height: 400px;
