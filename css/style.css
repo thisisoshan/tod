@@ -7,11 +7,12 @@ body {
     height: 100%;
     width: 100%;
     display: table;
+    font-family: 'Cinzel Decorative';
 }
 ::selection {
     background: transparent;
 }
-body .content {
+.content {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
@@ -49,4 +50,26 @@ button[type]:focus, button[type]:active {
     .image {
         width: 100%;
     }
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background: rgb(163, 210, 209);
+
+    display: flex;
+    justify-content: center;
+
+    transition: left 1.0s ease;
+}
+.intro .contents {
+    padding: 75px 40px 0 140px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.open {
+    left: 100%;
 }

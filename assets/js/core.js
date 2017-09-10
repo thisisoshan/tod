@@ -33,3 +33,7 @@ $(window).on("load", function() {
     checkAndSet();
     $("#reset").html("Ready");
 });
+$(".intro").on("swiperight", function() {
+    console.log("Swiped");
+    $(".intro").addClass("open");
+})
